@@ -1,0 +1,3 @@
+When a positive value in binary code to the left adds 0 to the fill all places the extension type.
+When a negative value in binary code to the left adds 1 to the fill all places the extension type.
+Data loss happens in both cases.

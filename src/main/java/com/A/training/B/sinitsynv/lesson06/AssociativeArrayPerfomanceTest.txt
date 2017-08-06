@@ -1,0 +1,14 @@
+-------- Addition --------
+AssociativeArray.add(K k, V v): 9661 ms
+HashMap.put(K k, V v): 12945 ms
+
+-------- Getting --------
+HashMap.get(K k): 1867 ms
+AssociativeArray.get(K k): 184 ms
+-------- Removing --------
+AssociativeArray.remove(K k): 996 ms
+HashMap.remove(K k): 227 ms
+
+-------- Addition Special keys --------
+AssociativeArray.addSpecialKeys(): 2879 ms
+HashMap.addSpecialKeys(): 1323 ms

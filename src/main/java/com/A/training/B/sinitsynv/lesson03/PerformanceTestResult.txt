@@ -1,0 +1,23 @@
+-------- Addition to the begin --------
+DynamicArray.add(index, e): 2434 ms
+ArrayList.add(index, e): 2424 ms
+
+-------- Addition to the middle --------
+DynamicArray.add(index, e): 3016 ms
+ArrayList.add(index, e): 3007 ms
+
+-------- Addition to the end --------
+DynamicArray.add(e): 13651 ms
+ArrayList.add(e): 14564 ms
+
+-------- Removing in the begin --------
+DynamicArray.remove(index): 1889 ms
+ArrayList.remove(index): 1891 ms
+
+-------- Removing in the middle --------
+DynamicArray.remove(index): 1870 ms
+ArrayList.remove(index): 1874 ms
+
+-------- Removing in the end --------
+DynamicArray.remove(index): 7 ms
+ArrayList.remove(index): 9 ms

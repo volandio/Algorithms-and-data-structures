@@ -1,0 +1,23 @@
+-------- Addition to the begin --------
+ArrayList.add(index, e): 8039 ms
+LinkedList.add(index, e): 1 ms
+
+-------- Addition to the middle --------
+ArrayList.add(index, e): 3715 ms
+LinkedList.add(index, e): 26198 ms
+
+-------- Addition to the end --------
+ArrayList.add(e): 2715 ms
+LinkedList.add(e): 15508 ms
+
+-------- Removing in the begin --------
+ArrayList.remove(index): 8114 ms
+LinkedList.remove(index): 1 ms
+
+-------- Removing in the middle --------
+ArrayList.remove(index): 3709 ms
+LinkedList.remove(index): 33293 ms
+
+-------- Removing in the end --------
+ArrayList.remove(index): 0 ms
+LinkedList.remove(index): 1 ms

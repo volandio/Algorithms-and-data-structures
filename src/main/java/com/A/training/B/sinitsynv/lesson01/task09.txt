@@ -1,0 +1,10 @@
+1) byte b = 100 ?
+Statement is compile because happens type and data don't lost.
+
+2) byte b = 100L ?
+Statement isn't compile because happens narrow type.
+byte b = (byte) 100L
+
+3) int i = 100L ?
+Statement isn't compile because happens narrow type, because "L" expands int to long.
+int i = (int) 100L;

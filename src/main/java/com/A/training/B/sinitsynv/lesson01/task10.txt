@@ -1,0 +1,13 @@
+what will be the output (int)(char)(byte)-1 ? 
+
+1) Narrow -1 int(default) to byte:
+1(default=int) = 00000000_00000000_00000000_00000001;
+-1 = ~1+1 = 0; 11111111_11111111_11111111_11111111 (32 bits)
+(byte)-1 = 11111111 (8 bits)
+
+2) Expand byte to char: 0 in char bitwise convert to 1 because last bit byte is 1, then 
+need to copy the value of a symbolic discharge in all the extra bits.
+(char)(byte)-1 = 11111111_11111111;
+
+3) Expand char to int:
+(int)(char)(byte)-1 = 00000000_00000000_11111111_11111111 = 2^32-1 = 65535.
